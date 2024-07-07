@@ -13,7 +13,7 @@ To set up the project and install the required dependencies, follow these steps:
 Clone the Repository:
 
 bash
-Copy code
+
 git clone https://github.com/csana004/Article-Analyzer.git
 cd Article-Analyzer
 Install the Dependencies:
@@ -21,7 +21,7 @@ Install the Dependencies:
 Ensure you have pip installed. Then, run the following commands:
 
 bash
-Copy code
+
 pip install nltk
 pip install textblob
 pip install newspaper3k
@@ -30,7 +30,7 @@ Download NLTK Data:
 The project uses the punkt tokenizer. To download it, run the following Python command:
 
 python
-Copy code
+
 import nltk
 nltk.download('punkt')
 Run the Application:
@@ -38,7 +38,7 @@ Run the Application:
 Once the dependencies are installed, you can run the application using:
 
 bash
-Copy code
+
 python article_analyzer.py
 Usage
 Enter the Article URL:
